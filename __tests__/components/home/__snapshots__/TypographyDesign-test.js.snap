@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page should render 1`] = `
+<div>
+  <h2
+    className="MuiTypography-root-3 MuiTypography-title-9 TypographyDesign-subheading-1"
+  >
+    Our Latest Articles
+  </h2>
+</div>
+`;

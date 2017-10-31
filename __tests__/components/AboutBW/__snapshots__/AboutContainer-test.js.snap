@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutContainer component should render the container with children 1`] = `
+<div
+  className="AboutContainer-root-1"
+>
+  <div
+    className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45"
+  >
+    <div
+      className="Definition-root-85"
+    >
+      <div
+        className="Definition-para-86"
+      >
+        <h1
+          className="MuiTypography-root-89 MuiTypography-display3-91 Definition-title-88"
+        >
+          SECOND WIND
+        </h1>
+        <h1
+          className="MuiTypography-root-89 MuiTypography-headline-94 Definition-text-87"
+        >
+          A renewed energy for a fresh breakthrough.
+        </h1>
+      </div>
+    </div>
+    <div
+      className="Mission-root-111"
+    >
+      <div
+        className="Mission-para-112"
+      >
+        <h1
+          className="MuiTypography-root-89 MuiTypography-display3-91 Mission-title-114"
+        >
+          MISSION
+        </h1>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96 Mission-text-113"
+        >
+          To provide resources for swim bike run enthusiasts to achieve breakthroughs. To build a community that helps one another find their Second Wind.
+        </h3>
+      </div>
+    </div>
+    <div
+      className="Values-root-115"
+    >
+      <div
+        className="Values-para-116"
+      >
+        <div
+          className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-40-19 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12"
+        >
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32"
+          >
+            <h1
+              className="MuiTypography-root-89 MuiTypography-display3-91 Values-title-118"
+            >
+              VALUES
+            </h1>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45 MuiGrid-grid-md-4-50 Values-grid-117"
+          >
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+            >
+              COMPASSION
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-119"
+            >
+              We believe practicing compassion in everything we do enables us to help individuals find their Second Wind, by creating an environment where everyone is welcomed to explore, innovate and breakthrough.
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45 MuiGrid-grid-md-4-50 Values-grid-117"
+          >
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+            >
+              BETTERMENT
+            </h2>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+            >
+              OF SELF
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-119"
+            >
+              We believe in seeking self-betterment everything we do. By pursuing the betterment of self, Second Wind Nation believes every individual can achieve their personal goals.
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45 MuiGrid-grid-md-4-50 Values-grid-117"
+          >
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+            >
+              BEING
+            </h2>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+            >
+              COMMUNITY
+            </h2>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+            >
+              ORIENTED
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-119"
+            >
+              We believe in leveraging on each other‘s strengths and harnessing the collective energy of the swim bike run community. Second Wind Nation exists to serve this community better everyday.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="Team-root-120"
+    >
+      <div
+        className="Team-para-121"
+      >
+        <div
+          className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-40-19 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12"
+        >
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32"
+          >
+            <h1
+              className="MuiTypography-root-89 MuiTypography-display3-91 Team-title-123"
+            >
+              TEAM
+            </h1>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              A
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Alan
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Editor
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              C
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Chris
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Development Coach
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              E
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Eugene
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Performance Coach
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              M
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Melissa
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Marcoms Strategist
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              R
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Romaine
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Editor
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              S
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Shen
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Development Coach
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              YW
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Yew Wee
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Chief Technology Officer
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+          >
+            <div
+              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              Z
+            </div>
+            <h2
+              className="MuiTypography-root-89 MuiTypography-title-95"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Z
+            </h2>
+            <h3
+              className="MuiTypography-root-89 MuiTypography-subheading-96"
+            >
+              Volunteer Photographer
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

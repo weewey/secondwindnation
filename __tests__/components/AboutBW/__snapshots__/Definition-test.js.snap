@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Definition component should render 1`] = `
+<div
+  className="Definition-root-1"
+>
+  <div
+    className="Definition-para-2"
+  >
+    <h1
+      className="MuiTypography-root-5 MuiTypography-display3-7 Definition-title-4"
+    >
+      SECOND WIND
+    </h1>
+    <h1
+      className="MuiTypography-root-5 MuiTypography-headline-10 Definition-text-3"
+    >
+      A renewed energy for a fresh breakthrough.
+    </h1>
+  </div>
+</div>
+`;

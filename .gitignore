@@ -1,0 +1,12 @@
+yarn-error.log
+coverage
+.env*
+.next
+yarn.lock
+package-lock.json
+.DS_Store
+node_modules/*
+
+node_modules/
+
+*.zip

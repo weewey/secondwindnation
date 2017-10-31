@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mission component should render 1`] = `
+<div
+  className="Mission-root-1"
+>
+  <div
+    className="Mission-para-2"
+  >
+    <h1
+      className="MuiTypography-root-5 MuiTypography-display3-7 Mission-title-4"
+    >
+      MISSION
+    </h1>
+    <h3
+      className="MuiTypography-root-5 MuiTypography-subheading-12 Mission-text-3"
+    >
+      To provide resources for swim bike run enthusiasts to achieve breakthroughs. To build a community that helps one another find their Second Wind.
+    </h3>
+  </div>
+</div>
+`;

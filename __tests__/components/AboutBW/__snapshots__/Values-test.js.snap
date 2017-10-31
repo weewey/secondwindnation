@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Values component should render 1`] = `
+<div
+  className="Values-root-1"
+>
+  <div
+    className="Values-para-2"
+  >
+    <div
+      className="MuiGrid-typeContainer-6 MuiGrid-spacing-xs-40-23 MuiGrid-align-xs-center-12 MuiGrid-justify-xs-center-16"
+    >
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36"
+      >
+        <h1
+          className="MuiTypography-root-89 MuiTypography-display3-91 Values-title-4"
+        >
+          VALUES
+        </h1>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36 MuiGrid-grid-sm-12-49 MuiGrid-grid-md-4-54 Values-grid-3"
+      >
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+        >
+          COMPASSION
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-5"
+        >
+          We believe practicing compassion in everything we do enables us to help individuals find their Second Wind, by creating an environment where everyone is welcomed to explore, innovate and breakthrough.
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36 MuiGrid-grid-sm-12-49 MuiGrid-grid-md-4-54 Values-grid-3"
+      >
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+        >
+          BETTERMENT
+        </h2>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+        >
+          OF SELF
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-5"
+        >
+          We believe in seeking self-betterment everything we do. By pursuing the betterment of self, Second Wind Nation believes every individual can achieve their personal goals.
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36 MuiGrid-grid-sm-12-49 MuiGrid-grid-md-4-54 Values-grid-3"
+      >
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+        >
+          BEING
+        </h2>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+        >
+          COMMUNITY
+        </h2>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+        >
+          ORIENTED
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-5"
+        >
+          We believe in leveraging on each other‘s strengths and harnessing the collective energy of the swim bike run community. Second Wind Nation exists to serve this community better everyday.
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+`;

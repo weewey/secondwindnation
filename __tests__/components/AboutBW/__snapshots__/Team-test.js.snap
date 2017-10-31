@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Team component should render 1`] = `
+<div
+  className="Team-root-1"
+>
+  <div
+    className="Team-para-2"
+  >
+    <div
+      className="MuiGrid-typeContainer-6 MuiGrid-spacing-xs-40-23 MuiGrid-align-xs-center-12 MuiGrid-justify-xs-center-16"
+    >
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36"
+      >
+        <h1
+          className="MuiTypography-root-89 MuiTypography-display3-91 Team-title-4"
+        >
+          TEAM
+        </h1>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          A
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Alan
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Editor
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          C
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Chris
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Development Coach
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          E
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Eugene
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Performance Coach
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          M
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Melissa
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Marcoms Strategist
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          R
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Romaine
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Editor
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          S
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Shen
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Development Coach
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          YW
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Yew Wee
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Chief Technology Officer
+        </h3>
+      </div>
+      <div
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-6-30 MuiGrid-grid-sm-6-43 MuiGrid-grid-md-3-53"
+      >
+        <div
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
+          style={
+            Object {
+              "margin": "auto",
+            }
+          }
+        >
+          Z
+        </div>
+        <h2
+          className="MuiTypography-root-89 MuiTypography-title-95"
+          style={
+            Object {
+              "marginTop": 10,
+            }
+          }
+        >
+          Z
+        </h2>
+        <h3
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
+        >
+          Volunteer Photographer
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+`;
