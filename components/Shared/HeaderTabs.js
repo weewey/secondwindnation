@@ -8,6 +8,8 @@ import Typography from 'material-ui/Typography';
 import AppBar from 'material-ui/AppBar';
 import Grid from 'material-ui/Grid';
 import Tabs, { Tab } from 'material-ui/Tabs';
+import Menu, { MenuItem } from 'material-ui/Menu';
+import Button from 'material-ui/Button';
 
 import Social from './social-icons';
 import MobileBurger from './MobileBurger';
@@ -26,21 +28,35 @@ class CenteredTabs extends Component {
       case '/contact':
         this.state = { initalTab: 2 };
         break;
+      case '/categories':
+        this.state = { initalTab: 3 };
+        break;
       default:
         this.state = { initalTab: undefined };
         break;
     }
-    this.state.urlRoute = ['/', '/about', '/contact'];
+    this.state.urlRoute = ['/', '/about', '/contact', '/categories'];
     this.handleChange = this.handleChange.bind(this);
+    // this.handleRequestClose = this.handleRequestClose.bind(this);
+    // this.state.anchorEl = null;
   }
 
   handleChange(event, index) {
     return Router.push(this.state.urlRoute[index]);
   }
 
+  // handleClick = event => {
+  //   this.setState({ anchorEl: event.currentTarget });
+  // };
+  //
+  // handleRequestClose = () => {
+  //   this.setState({ anchorEl: null });
+  // };
+
   render() {
     const classes = this.props.classes;
     const secondWindAcademy = 'https://www.google.com';
+    // const open = Boolean(this.state.anchorEl);
     return (
       <Grid container direction="row" spacing={8}>
         <AppBar className={classes.root} position="fixed" color="default">
@@ -57,6 +73,19 @@ class CenteredTabs extends Component {
                   <Tab className={classes.tab} label="Home" />
                   <Tab className={classes.tab} label="About" />
                   <Tab className={classes.tab} label="Contact" />
+                  <Tab className={classes.tab} label="Categories" />
+{/*<Menu
+                      anchorEl={this.state.anchorEl}
+                      open={open}
+                      onRequestClose={this.handleRequestClose}
+                    >
+                      <MenuItem>Running</MenuItem>
+                      <MenuItem>Swimming</MenuItem>
+                      <MenuItem>Cycling</MenuItem>
+                      <MenuItem>Triathlon</MenuItem>
+                      <MenuItem>General</MenuItem>
+                    </Menu>
+                  </Tab>*/}
                   <Tab className={classes.tabAcademy} label="Second Wind Academy" href="https://secondwindacademy.com/" />
                 </Tabs>
                 <div style={{ display: 'flex', position: 'absolute', right: 0, top: 10 }}>

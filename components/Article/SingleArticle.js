@@ -131,7 +131,7 @@ class SingleArticle extends Component {
     grammarlyClasses.forEach(name => {
       grammarDiv.push(document.getElementsByClassName(name));
     });
-    console.log(grammarDiv);
+    // console.log(grammarDiv);
     //maps through each of the array-like objects
     grammarDiv.forEach(divs => {
       Array.from(divs).map(div => {

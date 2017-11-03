@@ -89,7 +89,7 @@ function getArticlesByCategories(category) {
   const data = new Promise((resolve) => {
     Cosmic.getObjectsBySearch(config, params, (error, response) => {
       resolve(response);
-      console.log(response);
+      // console.log(response);
     });
   });
   return data;

@@ -11,8 +11,8 @@ describe('HeaderTabs', () => {
 
   it('should have 3 tabs, [Home, About, Contact]', () => {
     const wrapper = shallow(<HeaderTabs pathname="/" />);
-    expect(wrapper.find('.CenteredTabs-tab-5')).toHaveLength(3);
+    expect(wrapper.find('.CenteredTabs-tab-5')).toHaveLength(4);
     const texts = wrapper.find('.CenteredTabs-tab-5').map(node => node.prop('label'));
-    expect(texts).toEqual(['Home', 'About', 'Contact']);
+    expect(texts).toEqual(['Home', 'About', 'Contact', 'Categories']);
   });
 });

@@ -81,11 +81,16 @@ const members = [
     title: 'Volunteer Photographer',
     initials: 'Z',
   },
+  {
+    name: 'Jian Hao',
+    title: 'Web Developer',
+    initials: 'JH',
+  },
 ];
 
 const teamList = members.map((member, index) => {
   return (
-    <Grid item xs={6} sm={6} md={3} key={index}>
+    <Grid item xs={4} sm={4} md={4} key={index}>
       <Avatar style={{ margin: 'auto' }}>{member.initials}</Avatar>
       <Typography type="title" style={{ marginTop: 10}}>{member.name}</Typography>
       <Typography type="subheading">{member.title}</Typography>

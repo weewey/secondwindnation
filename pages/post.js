@@ -20,7 +20,9 @@ const styleSheet = ({
 class postPage extends React.Component {
   static async getInitialProps({ query }) {
     const { slug } = query;
+    console.log(slug);
     const article = await getPostBySlug(slug);
+    console.log(article);
     return { article };
   }
 
@@ -81,7 +83,6 @@ class postPage extends React.Component {
     return (
       <div>
         <SocialMetaTags article={this.props.article} />
-      {/*<Grid container direction="column" align="center" justify="center">*/}
         <div>
           <HeaderTabs pathname={currentPath} />
           {this.renderArticles()}

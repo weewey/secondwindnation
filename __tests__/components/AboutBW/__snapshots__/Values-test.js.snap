@@ -8,70 +8,71 @@ exports[`Values component should render 1`] = `
     className="Values-para-2"
   >
     <div
-      className="MuiGrid-typeContainer-6 MuiGrid-spacing-xs-40-23 MuiGrid-align-xs-center-12 MuiGrid-justify-xs-center-16"
+      align="center"
+      className="MuiGrid-typeContainer-6 MuiGrid-spacing-xs-40-28 MuiGrid-justify-xs-center-21"
     >
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-41"
       >
         <h1
-          className="MuiTypography-root-89 MuiTypography-display3-91 Values-title-4"
+          className="MuiTypography-root-94 MuiTypography-display3-96 Values-title-4"
         >
           VALUES
         </h1>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36 MuiGrid-grid-sm-12-49 MuiGrid-grid-md-4-54 Values-grid-3"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-54 MuiGrid-grid-md-4-59 Values-grid-3"
       >
         <h2
-          className="MuiTypography-root-89 MuiTypography-title-95"
+          className="MuiTypography-root-94 MuiTypography-title-100"
         >
           COMPASSION
         </h2>
         <h3
-          className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-5"
+          className="MuiTypography-root-94 MuiTypography-subheading-101 Values-text-5"
         >
           We believe practicing compassion in everything we do enables us to help individuals find their Second Wind, by creating an environment where everyone is welcomed to explore, innovate and breakthrough.
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36 MuiGrid-grid-sm-12-49 MuiGrid-grid-md-4-54 Values-grid-3"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-54 MuiGrid-grid-md-4-59 Values-grid-3"
       >
         <h2
-          className="MuiTypography-root-89 MuiTypography-title-95"
+          className="MuiTypography-root-94 MuiTypography-title-100"
         >
           BETTERMENT
         </h2>
         <h2
-          className="MuiTypography-root-89 MuiTypography-title-95"
+          className="MuiTypography-root-94 MuiTypography-title-100"
         >
           OF SELF
         </h2>
         <h3
-          className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-5"
+          className="MuiTypography-root-94 MuiTypography-subheading-101 Values-text-5"
         >
           We believe in seeking self-betterment everything we do. By pursuing the betterment of self, Second Wind Nation believes every individual can achieve their personal goals.
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36 MuiGrid-grid-sm-12-49 MuiGrid-grid-md-4-54 Values-grid-3"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-12-54 MuiGrid-grid-md-4-59 Values-grid-3"
       >
         <h2
-          className="MuiTypography-root-89 MuiTypography-title-95"
+          className="MuiTypography-root-94 MuiTypography-title-100"
         >
           BEING
         </h2>
         <h2
-          className="MuiTypography-root-89 MuiTypography-title-95"
+          className="MuiTypography-root-94 MuiTypography-title-100"
         >
           COMMUNITY
         </h2>
         <h2
-          className="MuiTypography-root-89 MuiTypography-title-95"
+          className="MuiTypography-root-94 MuiTypography-title-100"
         >
           ORIENTED
         </h2>
         <h3
-          className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-5"
+          className="MuiTypography-root-94 MuiTypography-subheading-101 Values-text-5"
         >
           We believe in leveraging on each other‘s strengths and harnessing the collective energy of the swim bike run community. Second Wind Nation exists to serve this community better everyday.
         </h3>

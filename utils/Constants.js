@@ -15,3 +15,5 @@ export const homePageNumOfRenderedArticles = 4;
 export const relatedArticles = 'related_articles';
 
 export const articleUrlStrg = 'slug';
+
+export const articleId = '_id';

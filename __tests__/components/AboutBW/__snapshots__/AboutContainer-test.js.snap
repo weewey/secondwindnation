@@ -5,115 +5,116 @@ exports[`AboutContainer component should render the container with children 1`] 
   className="AboutContainer-root-1"
 >
   <div
-    className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45"
+    className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-37 MuiGrid-grid-sm-12-50"
   >
     <div
-      className="Definition-root-85"
+      className="Definition-root-90"
     >
       <div
-        className="Definition-para-86"
+        className="Definition-para-91"
       >
         <h1
-          className="MuiTypography-root-89 MuiTypography-display3-91 Definition-title-88"
+          className="MuiTypography-root-94 MuiTypography-display3-96 Definition-title-93"
         >
           SECOND WIND
         </h1>
         <h1
-          className="MuiTypography-root-89 MuiTypography-headline-94 Definition-text-87"
+          className="MuiTypography-root-94 MuiTypography-headline-99 Definition-text-92"
         >
           A renewed energy for a fresh breakthrough.
         </h1>
       </div>
     </div>
     <div
-      className="Mission-root-111"
+      className="Mission-root-118"
     >
       <div
-        className="Mission-para-112"
+        className="Mission-para-119"
       >
         <h1
-          className="MuiTypography-root-89 MuiTypography-display3-91 Mission-title-114"
+          className="MuiTypography-root-94 MuiTypography-display3-96 Mission-title-121"
         >
           MISSION
         </h1>
         <h3
-          className="MuiTypography-root-89 MuiTypography-subheading-96 Mission-text-113"
+          className="MuiTypography-root-94 MuiTypography-subheading-101 Mission-text-120"
         >
           To provide resources for swim bike run enthusiasts to achieve breakthroughs. To build a community that helps one another find their Second Wind.
         </h3>
       </div>
     </div>
     <div
-      className="Values-root-115"
+      className="Values-root-122"
     >
       <div
-        className="Values-para-116"
+        className="Values-para-123"
       >
         <div
-          className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-40-19 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12"
+          align="center"
+          className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-40-24 MuiGrid-justify-xs-center-17"
         >
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-37"
           >
             <h1
-              className="MuiTypography-root-89 MuiTypography-display3-91 Values-title-118"
+              className="MuiTypography-root-94 MuiTypography-display3-96 Values-title-125"
             >
               VALUES
             </h1>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45 MuiGrid-grid-md-4-50 Values-grid-117"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-37 MuiGrid-grid-sm-12-50 MuiGrid-grid-md-4-55 Values-grid-124"
           >
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
             >
               COMPASSION
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-119"
+              className="MuiTypography-root-94 MuiTypography-subheading-101 Values-text-126"
             >
               We believe practicing compassion in everything we do enables us to help individuals find their Second Wind, by creating an environment where everyone is welcomed to explore, innovate and breakthrough.
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45 MuiGrid-grid-md-4-50 Values-grid-117"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-37 MuiGrid-grid-sm-12-50 MuiGrid-grid-md-4-55 Values-grid-124"
           >
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
             >
               BETTERMENT
             </h2>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
             >
               OF SELF
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-119"
+              className="MuiTypography-root-94 MuiTypography-subheading-101 Values-text-126"
             >
               We believe in seeking self-betterment everything we do. By pursuing the betterment of self, Second Wind Nation believes every individual can achieve their personal goals.
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32 MuiGrid-grid-sm-12-45 MuiGrid-grid-md-4-50 Values-grid-117"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-37 MuiGrid-grid-sm-12-50 MuiGrid-grid-md-4-55 Values-grid-124"
           >
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
             >
               BEING
             </h2>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
             >
               COMMUNITY
             </h2>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
             >
               ORIENTED
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96 Values-text-119"
+              className="MuiTypography-root-94 MuiTypography-subheading-101 Values-text-126"
             >
               We believe in leveraging on each other‘s strengths and harnessing the collective energy of the swim bike run community. Second Wind Nation exists to serve this community better everyday.
             </h3>
@@ -122,28 +123,29 @@ exports[`AboutContainer component should render the container with children 1`] 
       </div>
     </div>
     <div
-      className="Team-root-120"
+      className="Team-root-127"
     >
       <div
-        className="Team-para-121"
+        className="Team-para-128"
       >
         <div
-          className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-40-19 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12"
+          align="center"
+          className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-40-24 MuiGrid-justify-xs-center-17"
         >
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-32"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-12-37"
           >
             <h1
-              className="MuiTypography-root-89 MuiTypography-display3-91 Team-title-123"
+              className="MuiTypography-root-94 MuiTypography-display3-96 Team-title-130"
             >
               TEAM
             </h1>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -153,7 +155,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               A
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -163,16 +165,16 @@ exports[`AboutContainer component should render the container with children 1`] 
               Alan
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Editor
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -182,7 +184,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               C
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -192,16 +194,16 @@ exports[`AboutContainer component should render the container with children 1`] 
               Chris
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Development Coach
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -211,7 +213,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               E
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -221,16 +223,16 @@ exports[`AboutContainer component should render the container with children 1`] 
               Eugene
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Performance Coach
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -240,7 +242,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               M
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -250,16 +252,16 @@ exports[`AboutContainer component should render the container with children 1`] 
               Melissa
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Marcoms Strategist
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -269,7 +271,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               R
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -279,16 +281,16 @@ exports[`AboutContainer component should render the container with children 1`] 
               Romaine
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Editor
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -298,7 +300,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               S
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -308,16 +310,16 @@ exports[`AboutContainer component should render the container with children 1`] 
               Shen
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Development Coach
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -327,7 +329,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               YW
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -337,16 +339,16 @@ exports[`AboutContainer component should render the container with children 1`] 
               Yew Wee
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Chief Technology Officer
             </h3>
           </div>
           <div
-            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-6-26 MuiGrid-grid-sm-6-39 MuiGrid-grid-md-3-49"
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
           >
             <div
-              className="MuiAvatar-root-125 MuiAvatar-colorDefault-126"
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
               style={
                 Object {
                   "margin": "auto",
@@ -356,7 +358,7 @@ exports[`AboutContainer component should render the container with children 1`] 
               Z
             </div>
             <h2
-              className="MuiTypography-root-89 MuiTypography-title-95"
+              className="MuiTypography-root-94 MuiTypography-title-100"
               style={
                 Object {
                   "marginTop": 10,
@@ -366,9 +368,38 @@ exports[`AboutContainer component should render the container with children 1`] 
               Z
             </h2>
             <h3
-              className="MuiTypography-root-89 MuiTypography-subheading-96"
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
             >
               Volunteer Photographer
+            </h3>
+          </div>
+          <div
+            className="MuiGrid-typeItem-3 MuiGrid-grid-xs-4-29 MuiGrid-grid-sm-4-42 MuiGrid-grid-md-4-55"
+          >
+            <div
+              className="MuiAvatar-root-132 MuiAvatar-colorDefault-133"
+              style={
+                Object {
+                  "margin": "auto",
+                }
+              }
+            >
+              JH
+            </div>
+            <h2
+              className="MuiTypography-root-94 MuiTypography-title-100"
+              style={
+                Object {
+                  "marginTop": 10,
+                }
+              }
+            >
+              Jian Hao
+            </h2>
+            <h3
+              className="MuiTypography-root-94 MuiTypography-subheading-101"
+            >
+              Web Developer
             </h3>
           </div>
         </div>
