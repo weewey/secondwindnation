@@ -15,7 +15,7 @@ const styleSheet = ({
   },
   articlesContainer: {
     maxWidth: 740,
-    marginTop: 66,
+    marginTop: 73,
   }
 });
 

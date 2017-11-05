@@ -38,7 +38,6 @@ class CenteredTabs extends Component {
     // this.state.urlRoute = ['/', '/about', '/contact', '/categories'];
     // this.handleChange = this.handleChange.bind(this);
     this.state = {
-      selectedCategory: '',
       anchorEl: null,
     };
     this.handleRequestClose = this.handleRequestClose.bind(this);
@@ -69,7 +68,7 @@ class CenteredTabs extends Component {
               <img src="/static/secondwind.png" className={classes.img} alt="footer_logo" />
             </Link>
           </Grid>
-          <Grid item xs={8} sm={8} lg={8} align="center" style={{ display: 'flex', alignItems: 'center'}} hidden={{ smDown: true }}>
+          <Grid item xs={8} sm={8} lg={8} style={{ display: 'flex', alignItems: 'center'}} hidden={{ smDown: true }}>
               {/*<div>
                 <Tabs value={this.state.initalTab} className={classes.tabs} onChange={this.handleChange} centered indicatorColor="black">
                   <Tab className={classes.tab} label="Home" />
@@ -115,7 +114,7 @@ class CenteredTabs extends Component {
                 </Grid>
               </Grid>
           </Grid>
-          <Grid item xs={2} sm={2} lg={2} align="center" justify="flex-end" style={{ display: 'flex', alignItems:'center', justifyContent: 'flex-end', paddingRight: 20 }} hidden={{ smDown: true }}>
+          <Grid item xs={2} sm={2} lg={2} style={{ display: 'flex', alignItems:'center', justifyContent: 'flex-end', paddingRight: 20 }} hidden={{ smDown: true }}>
             <Social />
           </Grid>
           <Grid item xs={10} sm={10} style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end'}} hidden={{ mdUp: true }}>
@@ -132,7 +131,6 @@ class CenteredTabs extends Component {
 
 CenteredTabs.propTypes = {
   classes: PropTypes.object.isRequired,
-  pathname: PropTypes.string.isRequired,
 };
 
 const styleSheet = (theme => ({
