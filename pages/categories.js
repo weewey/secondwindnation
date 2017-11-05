@@ -2,48 +2,75 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import HeaderTabs from '../components/Shared/HeaderTabs';
 import { withStyles } from 'material-ui/styles';
+import Router from 'next/router';
 import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
 import Grid from 'material-ui/Grid';
 import { getArticlesByCategories } from '../model/cosmic';
-import _ from 'lodash';
+import compose from 'recompose/compose';
+import withRoot from '../components/withRoot';
 import CategorizedArticles from '../components/Categories/CategorizedArticles';
 
 const styleSheet = ({
   cardContainer: {
     marginTop: 100,
   },
+  root: {
+    flex: '1 1 auto',
+  },
 });
 
 class categoriesPage extends Component {
+  static async getInitialProps({ query }) {
+    const category = query.category.charAt(0).toUpperCase() + query.category.slice(1);
+    // console.log(category);
+    const articles = await getArticlesByCategories(`${category}`);
+    // console.log(articles);
+    return { articles, category };
+  }
+
   constructor(props){
-    super();
+    super(props);
     this.state = {
-      articles: {},
-      isLoading: false,
+      articles: this.props.articles,
+      query: this.props.category,
     }
     const { classes } = props;
     this.classes = classes;
     this.handleClick = this.handleClick.bind(this);
   }
 
+  //check if query has changed
+  //if changed, request for new articles and setstate with new articles object
+  async componentWillReceiveProps(nextProps){
+    const { pathname, query } = nextProps.url;
+    // console.log(pathname);
+    console.log(query.category);
+    const category = query.category.charAt(0).toUpperCase() + query.category.slice(1);
+    const articles = await getArticlesByCategories(`${category}`);
+    console.log(articles);
+    this.setState({ articles });
+  }
 
   //on click, get posts related to category
   async handleClick(category) {
     const articles = await getArticlesByCategories(category);
+    console.log(category);
     this.setState({
       articles
     });
   };
 
   render(){
-    const currentPath = this.props.url.pathname;
+    // const currentPath = this.props.;
     const categories = ['Running', 'Cycling', 'Triathlon', 'General'];
     const articles = this.state.articles.objects;
-    console.log(articles);
+    const query = this.state.query;
+    // console.log(query);
+    // console.log(articles);
     const renderCards = categories.map((category, index) => {
       return(
-        <Card key={index} style={{ marginLeft: 20, cursor: 'pointer' }} onClick={e => this.handleClick(category)} >
+        <Card key={index} style={{ cursor: 'pointer' }} onClick={e => this.handleClick(category)} >
           <CardContent>
             <Typography type="body1">
               {category}
@@ -55,10 +82,10 @@ class categoriesPage extends Component {
 
     return(
       <div>
-        <HeaderTabs pathname={currentPath} />
-        <Grid container direction="row" justify="center" className={this.classes.cardContainer}>
+        <HeaderTabs />
+        {/*<Grid container direction="row" justify="center" className={this.classes.cardContainer}>
           {renderCards}
-        </Grid>
+        </Grid>*/}
         <CategorizedArticles articles={articles}/>
       </div>
     );
@@ -66,7 +93,8 @@ class categoriesPage extends Component {
 }
 
 categoriesPage.propTypes = {
-
+  classes: PropTypes.object.isRequired,
+  articles: PropTypes.object,
 }
 
-export default withStyles(styleSheet)(categoriesPage);
+export default compose(withStyles(styleSheet), withRoot)(categoriesPage);

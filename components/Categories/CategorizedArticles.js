@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Router from 'next/router';
 import get from 'lodash.get';
 import { withStyles } from 'material-ui/styles';
-import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
+import Card, { CardActions, CardContent, CardMedia, CardTitle } from 'material-ui/Card';
 import { headerImgStrg, titleStrg, articleId } from '../../utils/Constants';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
@@ -15,7 +15,7 @@ const styleSheet = ({
   },
   articlesContainer: {
     maxWidth: 740,
-    margin: 'auto',
+    marginTop: 66,
   }
 });
 
@@ -35,8 +35,8 @@ function CategorizedArticles(props){
         const title = get(article, titleStrg);
         const id = get(article, articleId);
         return(
-          <Grid item key={id} style={{ maxWidth: 300, margin: 20 }} xs={6} sm={6} md={6} lg={6}>
-            <Card style={{ height: 350 }}>
+          <Grid item key={id} xs={12} sm={12} md={6} lg={6}>
+            <Card style={{ width: '100vw' }}>
               <CardMedia className={classes.media} image={headerImg} />
               <CardContent>
                 <Typography component="p">{title}</Typography>
@@ -52,15 +52,17 @@ function CategorizedArticles(props){
         )
     })
     return(
-      <Grid container direction="row" spacing={24} justify="center" className={classes.articlesContainer}>
-        {renderArticles}
-      </Grid>
+      <div>
+        <Grid container direction="column" spacing={0} justify="center" className={classes.articlesContainer} align="center">
+          {renderArticles}
+        </Grid>
+      </div>
     )};
 }
 
 CategorizedArticles.propTypes = {
   classes: PropTypes.object.isRequired,
-  articles: PropTypes.object.isRequired,
+  articles: PropTypes.object,
 }
 
 export default withStyles(styleSheet)(CategorizedArticles);
