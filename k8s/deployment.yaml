@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: frontend
+        track: daily
+    spec:
+      containers:
+        - name: frontend
+          image: "gcr.io/swn-jenkins/frontend:v1"
+          ports:
+            - name: http
+              containerPort: 8081
