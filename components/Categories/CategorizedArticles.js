@@ -38,7 +38,6 @@ function CategorizedArticles(props){
   else {
     const renderArticles = articles.all.map((article) => {
         const headerImg = encodeURI(get(article, headerImgStrg));
-        console.log(headerImg);
         const title = get(article, titleStrg);
         const id = get(article, articleId);
         return(
