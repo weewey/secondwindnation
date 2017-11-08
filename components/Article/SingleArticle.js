@@ -25,7 +25,7 @@ const styleSheet = ({
     marginTop: 20,
   },
   imgGrid: {
-    marginTop: '54px',
+    marginTop: 53,
     display: 'flex',
   },
   deskpost_content: {

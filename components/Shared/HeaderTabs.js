@@ -61,8 +61,8 @@ class CenteredTabs extends Component {
     const secondWindAcademy = 'https://www.google.com';
     const open = Boolean(this.state.anchorEl);
     return (
-      <Grid container direction="row" spacing={8}>
-        <AppBar className={classes.root} position="fixed" color="default">
+      <AppBar className={classes.root} position="fixed" color="default">
+        <Grid container spacing={8} className={classes.headerContainer} style={{ maxWidth: 1050 }}>
           <Grid item xs={2} sm={2} lg={2}>
             <Link href="/">
               <img src="/static/secondwind.png" className={classes.img} alt="footer_logo" />
@@ -123,8 +123,8 @@ class CenteredTabs extends Component {
               <MobileBurger />
             </div>
           </Grid>
-        </AppBar>
-      </Grid>
+        </Grid>
+      </AppBar>
     );
   }
 }
@@ -135,10 +135,19 @@ CenteredTabs.propTypes = {
 
 const styleSheet = (theme => ({
   root: {
-    flex: '1 1 auto',
-    minHeight: '64px',
-    backgroundColor: theme.palette.common.fullWhite,
+    // flex: '1 1 auto',
+    // minHeight: '64px',
+    // backgroundColor: theme.palette.common.fullWhite,
+    backgroundColor: '#fafafa',
+    paddingTop: 6,
     flexDirection: 'row',
+    justifyContent: 'center',
+    boxShadow: 'none',
+  },
+  headerContainer: {
+    maxWidth: 1050,
+    paddingLeft: 5,
+    paddingRight: 5,
   },
   gridTab: {
     alignSelf: 'center',
@@ -154,7 +163,7 @@ const styleSheet = (theme => ({
     marginRight: 10,
   },
   tabs: {
-    margin: '0 50px',
+    margin: '0 10px',
   },
   tab: {
     fontWeight: 300,

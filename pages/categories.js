@@ -13,10 +13,16 @@ import CategorizedArticles from '../components/Categories/CategorizedArticles';
 
 const styleSheet = ({
   cardContainer: {
-    marginTop: 100,
+    marginTop: 500,
   },
   root: {
     flex: '1 1 auto',
+  },
+  catContainer: {
+    marginTop: 100,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
   },
 });
 
@@ -49,7 +55,7 @@ class categoriesPage extends Component {
     const category = query.category.charAt(0).toUpperCase() + query.category.slice(1);
     const articles = await getArticlesByCategories(`${category}`);
     console.log(articles);
-    this.setState({ articles });
+    this.setState({ articles, query: category });
   }
 
   //on click, get posts related to category
@@ -86,7 +92,10 @@ class categoriesPage extends Component {
         {/*<Grid container direction="row" justify="center" className={this.classes.cardContainer}>
           {renderCards}
         </Grid>*/}
-        <CategorizedArticles articles={articles}/>
+        <div className={this.classes.catContainer}>
+          <Typography type="display1">{this.state.query} Articles</Typography>
+          <CategorizedArticles articles={articles} query={query}/>
+        </div>
       </div>
     );
   }
