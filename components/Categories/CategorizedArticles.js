@@ -8,19 +8,25 @@ import { headerImgStrg, titleStrg, articleId } from '../../utils/Constants';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import Grid from 'material-ui/Grid';
+import Hidden from 'material-ui/Hidden';
 
 const styleSheet = ({
   media: {
     height: 200,
   },
   articlesContainer: {
-    maxWidth: 740,
-    marginTop: 73,
-  }
+    maxWidth: 1050,
+    marginTop: 42,
+  },
+  card: {
+    border: 'none',
+    boxShadow: 'none',
+    backgroundColor: '#fafafa',
+  },
 });
 
 function CategorizedArticles(props){
-  const { articles, classes } = props;
+  const { articles, classes, query } = props;
 
   if(!articles) {
     return(
@@ -36,11 +42,11 @@ function CategorizedArticles(props){
         const title = get(article, titleStrg);
         const id = get(article, articleId);
         return(
-          <Grid item key={id} xs={12} sm={12} md={6} lg={6}>
-            <Card style={{ width: '100vw' }}>
+          <Grid item key={id} xs={12} sm={6} md={4} lg={4}>
+            <Card className={classes.card}>
               <CardMedia className={classes.media} image={headerImg} />
               <CardContent>
-                <Typography component="p">{title}</Typography>
+                <Typography type="title" component="p">{title}</Typography>
               </CardContent>
               <CardActions>
                 <Button dense color="primary" onClick={e => {
@@ -54,7 +60,13 @@ function CategorizedArticles(props){
     })
     return(
       <div>
-        <Grid container direction="column" spacing={0} justify="center" className={classes.articlesContainer} align="center">
+        <Grid container direction="row" spacing={16} justify="center" className={classes.articlesContainer} align="center" hidden={{ smDown: true }}>
+          {renderArticles}
+        </Grid>
+        <Grid container direction="row" spacing={8} justify="center" className={classes.articlesContainer} align="center" hidden={{ mdUp: true, xsDown: true }}>
+          {renderArticles}
+        </Grid>
+        <Grid container direction="row" spacing={0} justify="center" className={classes.articlesContainer} align="center" hidden={{ smUp: true }}>
           {renderArticles}
         </Grid>
       </div>
