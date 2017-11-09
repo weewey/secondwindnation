@@ -54,7 +54,7 @@
     "start:next": "babel-node server.js",
     "stop": "pm2 stop all",
     "test:watch": "yarn run test --watch",
-    "test": "jest",
+    "test": "jest -u",
     "lint": "eslint './components'"
   },
   "devDependencies": {
