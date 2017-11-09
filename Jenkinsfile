@@ -8,13 +8,15 @@ node {
 
   stage 'Build application'
   sh("rm -rf .next/")
-  sh("yarn build")
 
   stage 'Build image'
   sh("docker build -t ${imageTag} .")
 
   stage 'Run frontend tests'
   sh("docker run ${imageTag} yarn test")
+
+  stage 'Build application'
+  sh("docker run ${imageTag} yarn build")
 
   stage 'Push image to registry'
   sh("gcloud docker -- push ${imageTag}")
