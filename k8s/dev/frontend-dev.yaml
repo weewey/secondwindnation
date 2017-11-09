@@ -16,6 +16,9 @@ spec:
       - name: frontend
         image: "gcr.io/swn-jenkins/frontend:v1"
         imagePullPolicy: Always
+        env: 
+        - name: "NODE_ENV"
+          value: "production"
         ports:
         - name: http
           containerPort: 8081
