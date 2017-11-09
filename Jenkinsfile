@@ -6,6 +6,10 @@ node {
 
   checkout scm
 
+  stage 'Build application'
+  sh("rm -rf .next/")
+  sh("yarn build")
+
   stage 'Build image'
   sh("docker build -t ${imageTag} .")
 

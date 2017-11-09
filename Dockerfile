@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8081
 
-CMD ["yarn", "open:src"]
+CMD ["yarn", "start"]
