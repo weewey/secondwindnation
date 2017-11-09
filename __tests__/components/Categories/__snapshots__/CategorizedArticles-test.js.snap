@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategorizedArticles component should render the container with children 1`] = `
+<div
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  <p>
+    Please select category.
+  </p>
+</div>
+`;

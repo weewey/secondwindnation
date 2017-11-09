@@ -8,23 +8,22 @@ exports[`Team component should render 1`] = `
     className="Team-para-2"
   >
     <div
-      align="center"
-      className="MuiGrid-typeContainer-6 MuiGrid-spacing-xs-40-28 MuiGrid-justify-xs-center-21"
+      className="MuiGrid-typeContainer-6 MuiGrid-spacing-xs-40-23 MuiGrid-align-xs-center-12 MuiGrid-justify-xs-center-16"
     >
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-41"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-12-36"
       >
         <h1
-          className="MuiTypography-root-94 MuiTypography-display3-96 Team-title-4"
+          className="MuiTypography-root-89 MuiTypography-display3-91 Team-title-4"
         >
           TEAM
         </h1>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -34,7 +33,7 @@ exports[`Team component should render 1`] = `
           A
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -44,16 +43,16 @@ exports[`Team component should render 1`] = `
           Alan
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Editor
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -63,7 +62,7 @@ exports[`Team component should render 1`] = `
           C
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -73,16 +72,16 @@ exports[`Team component should render 1`] = `
           Chris
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Development Coach
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -92,7 +91,7 @@ exports[`Team component should render 1`] = `
           E
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -102,16 +101,16 @@ exports[`Team component should render 1`] = `
           Eugene
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Performance Coach
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -121,7 +120,7 @@ exports[`Team component should render 1`] = `
           M
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -131,16 +130,16 @@ exports[`Team component should render 1`] = `
           Melissa
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Marcoms Strategist
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -150,7 +149,7 @@ exports[`Team component should render 1`] = `
           R
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -160,16 +159,16 @@ exports[`Team component should render 1`] = `
           Romaine
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Editor
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -179,7 +178,7 @@ exports[`Team component should render 1`] = `
           S
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -189,16 +188,16 @@ exports[`Team component should render 1`] = `
           Shen
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Development Coach
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -208,7 +207,7 @@ exports[`Team component should render 1`] = `
           YW
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -218,16 +217,16 @@ exports[`Team component should render 1`] = `
           Yew Wee
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Chief Technology Officer
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -237,7 +236,7 @@ exports[`Team component should render 1`] = `
           Z
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -247,16 +246,16 @@ exports[`Team component should render 1`] = `
           Z
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Volunteer Photographer
         </h3>
       </div>
       <div
-        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-33 MuiGrid-grid-sm-4-46 MuiGrid-grid-md-4-59"
+        className="MuiGrid-typeItem-7 MuiGrid-grid-xs-4-28 MuiGrid-grid-sm-4-41 MuiGrid-grid-md-4-54"
       >
         <div
-          className="MuiAvatar-root-118 MuiAvatar-colorDefault-119"
+          className="MuiAvatar-root-111 MuiAvatar-colorDefault-112"
           style={
             Object {
               "margin": "auto",
@@ -266,7 +265,7 @@ exports[`Team component should render 1`] = `
           JH
         </div>
         <h2
-          className="MuiTypography-root-94 MuiTypography-title-100"
+          className="MuiTypography-root-89 MuiTypography-title-95"
           style={
             Object {
               "marginTop": 10,
@@ -276,7 +275,7 @@ exports[`Team component should render 1`] = `
           Jian Hao
         </h2>
         <h3
-          className="MuiTypography-root-94 MuiTypography-subheading-101"
+          className="MuiTypography-root-89 MuiTypography-subheading-96"
         >
           Web Developer
         </h3>
