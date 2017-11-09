@@ -1,7 +1,7 @@
 kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
-  name: frontend
+  name: frontend-canary
 spec:
   replicas:
   template:
@@ -10,7 +10,7 @@ spec:
       labels:
         app: frontend
         role: frontend
-        env: dev
+        env: canary
     spec:
       containers:
       - name: frontend
