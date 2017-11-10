@@ -37,6 +37,9 @@
     "transform": {
       "^.+\\.js?$": "babel-jest"
     },
+    "globals": {
+      "NODE_ENV": "test"
+    },
     "setupFiles": [
       "./jestSetup.js"
     ],
@@ -56,7 +59,7 @@
     "start:next": "babel-node server.js",
     "stop": "pm2 stop all",
     "test:watch": "yarn run test --watch",
-    "test": "jest -u",
+    "test": "NODE_ENV=test jest -u",
     "lint": "eslint './components'"
   },
   "devDependencies": {

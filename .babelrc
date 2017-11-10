@@ -5,7 +5,7 @@
       "plugins": ["inline-dotenv"],
     },
     "production": {
-      "presets": "next/babel",
+      "presets": ["env","react","next/babel"],
       "plugins": ["transform-inline-environment-variables"],
     },
     "test": {

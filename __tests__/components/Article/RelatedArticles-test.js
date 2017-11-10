@@ -11,7 +11,7 @@ const testArticles = [{
 }];
 
 describe('Related Articles', () => {
-  const wrapper = shallow(<RelatedArticles articles={testArticles} />);
+  const wrapper = mount(<RelatedArticles articles={testArticles} />);
   it('should have the props articles', () => {
     expect(wrapper.prop('articles')).toEqual(testArticles);
   });
