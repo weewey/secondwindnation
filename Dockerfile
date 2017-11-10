@@ -6,6 +6,8 @@ COPY package.json .
 
 RUN npm i
 
+RUN npm build
+
 COPY . .
 
 EXPOSE 8081
