@@ -52,14 +52,15 @@
     "dev": "npm-run-all --parallel test:watch open:src",
     "open:src": "babel-node server.js",
     "pm2-start": "pm2 start server.js --watch",
+    "prebuild": "npm run-script rm",
     "build": "next build",
-    "prestart": "npm-run-all rm build",
     "rm": "rm -rf .next/",
-    "start": "npm-run-all start:next",
+    "start": "NODE_ENV=production npm-run-all start:next",
     "start:next": "babel-node server.js",
     "stop": "pm2 stop all",
     "test:watch": "yarn run test --watch",
     "test": "NODE_ENV=test jest -u",
+    "posttest": "npm run-script build",
     "lint": "eslint './components'"
   },
   "devDependencies": {
