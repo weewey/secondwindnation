@@ -7,7 +7,7 @@ node {
 
   stage('Initialize Node Environment') {
         echo 'Initializing...'
-        def node = tool name: 'Node-9.0.0', type:'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+        def node = tool name: 'Node-9.1.0', type:'jenkins.plugins.nodejs.tools.NodeJSInstallation'
         env.PATH = "${node}/bin:${env.PATH}"
   }
 
