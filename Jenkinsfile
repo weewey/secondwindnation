@@ -5,11 +5,17 @@ node {
   def containerTestBuild = "swn-test-build"
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
+  stage('Initialize Node Environment') {
+        echo 'Initializing...'
+        def node = tool name: 'Node-9.0.0', type:'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+        env.PATH = "${node}/bin:${env.PATH}"
+  }
+
   checkout scm
 
-  stage('Test'){
+  stage('Testing'){
     sh("node -v")
-    sh("npm install")
+    sh("npm i")
     sh("npm test")
     sh("npm run build")
   }
