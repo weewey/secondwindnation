@@ -17,14 +17,14 @@ node {
     sh("node -v")
     sh("npm i")
     sh("npm test")
+  }
+
+  stage('Build NextJS application'){
     sh("npm run build")
   }
 
   stage 'Build image'
   sh("docker build -t ${imageTag} .")
-
-  stage 'Run frontend tests'
-  sh("docker run --name ${containerTestBuild} ${imageTag} yarn test")
 
   stage 'Push image to registry'
   sh("gcloud docker -- push ${imageTag}")
