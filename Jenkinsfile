@@ -7,14 +7,14 @@ node {
 
   checkout scm
 
+  stage 'Build application'
+  sh("npm run build")
+
   stage 'Build image'
   sh("docker build -t ${imageTag} .")
 
   stage 'Run frontend tests'
   sh("docker run --name ${containerTestBuild} ${imageTag} yarn test")
-
-  stage 'Update docker image'
-  sh("docker commit ${containerTestBuild} ${imageTag}")
 
   stage 'Push image to registry'
   sh("gcloud docker -- push ${imageTag}")

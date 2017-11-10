@@ -60,7 +60,6 @@
     "stop": "pm2 stop all",
     "test:watch": "yarn run test --watch",
     "test": "NODE_ENV=test jest -u",
-    "posttest": "npm run-script build",
     "lint": "eslint './components'"
   },
   "devDependencies": {
