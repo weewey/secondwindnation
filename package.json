@@ -55,7 +55,7 @@
     "build": "next build",
     "prestart": "npm-run-all rm build",
     "rm": "rm -rf .next/",
-    "start": "npm-run-all --parallel start:next",
+    "start": "npm-run-all start:next",
     "start:next": "babel-node server.js",
     "stop": "pm2 stop all",
     "test:watch": "yarn run test --watch",
