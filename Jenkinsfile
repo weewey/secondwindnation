@@ -2,6 +2,7 @@ node {
   def project = 'swn-jenkins'
   def appName = 'swn'
   def feSvcName = "${appName}-frontend"
+  def containerTestBuild = "swn-test-build"
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
   checkout scm
@@ -10,7 +11,10 @@ node {
   sh("docker build -t ${imageTag} .")
 
   stage 'Run frontend tests'
-  sh("docker run ${imageTag} yarn test")
+  sh("docker run --name ${containerTestBuild} ${imageTag} yarn test")
+
+  stage 'Update docker image'
+  sh("docker commit ${containerTestBuild} ${imageTag}")
 
   stage 'Push image to registry'
   sh("gcloud docker -- push ${imageTag}")
