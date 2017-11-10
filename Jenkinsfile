@@ -7,8 +7,12 @@ node {
 
   checkout scm
 
-  stage 'Build application'
-  sh("npm run build")
+  stage('Test'){
+    sh("node -v")
+    sh("npm install")
+    sh("npm test")
+    sh("npm run build")
+  }
 
   stage 'Build image'
   sh("docker build -t ${imageTag} .")
