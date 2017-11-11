@@ -19,6 +19,16 @@ spec:
         env: 
         - name: "NODE_ENV"
           value: "production"
+        - name: "read_key"
+          valueFrom:
+            secretKeyRef:
+              name: cosmic-keys
+              key: cosmic-read-key
+        - name: "write_key"
+          valueFrom:
+            secretKeyRef:
+              name: cosmic-keys
+              key: cosmic-write-key
         ports:
         - name: http
           containerPort: 8081
