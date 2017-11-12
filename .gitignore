@@ -1,6 +1,5 @@
 yarn-error.log
 coverage
-.env*
 .next
 yarn.lock
 package-lock.json
