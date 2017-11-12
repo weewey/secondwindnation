@@ -11,7 +11,8 @@ app.prepare()
   .then(() => {
     const server = express();
 
-    console.log(process.env);
+    console.log(process.env.read_key);
+    console.log(process.env.write_key);
     server.get('/post/:slug', (req, res) => {
       const actualPage = '/post';
       const queryParams = { slug: req.params.slug };
