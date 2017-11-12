@@ -12,6 +12,7 @@ app.prepare()
   .then(() => {
     const server = express();
 
+    console.log(process.env);
     server.get('/post/:slug', (req, res) => {
       const actualPage = '/post';
       const queryParams = { slug: req.params.slug };
@@ -23,7 +24,6 @@ app.prepare()
       if (err) throw err;
       else {
         console.log('> Ready on http://localhost:8081');
-        open('http://localhost:8081');
       }
     });
   })
