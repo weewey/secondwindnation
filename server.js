@@ -1,4 +1,4 @@
-// version = '0.0.3';
+// version = '0.0.4';
 
 const express = require('express');
 const next = require('next');
