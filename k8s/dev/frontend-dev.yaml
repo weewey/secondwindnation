@@ -32,7 +32,7 @@ spec:
         resources:
           requests:
             memory: "64Mi"
-            cpu: "250Mi"
+            cpu: "100Mi"
         ports:
         - name: http
           containerPort: 8081
