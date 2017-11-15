@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import HeaderTabs from '../components/Shared/HeaderTabs';
 import { withStyles } from 'material-ui/styles';
-import Router from 'next/router';
-import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
+import Card, { CardContent } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
-import Grid from 'material-ui/Grid';
-import { getArticlesByCategories } from '../model/cosmic';
 import compose from 'recompose/compose';
 import withRoot from '../components/withRoot';
+import HeaderTabs from '../components/Shared/HeaderTabs';
+import { getArticlesByCategories } from '../model/cosmic';
 import CategorizedArticles from '../components/Categories/CategorizedArticles';
 
 const styleSheet = ({
@@ -35,48 +33,43 @@ class categoriesPage extends Component {
     return { articles, category };
   }
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       articles: this.props.articles,
       query: this.props.category,
-    }
+    };
     const { classes } = props;
     this.classes = classes;
     this.handleClick = this.handleClick.bind(this);
   }
 
-  //check if query has changed
-  //if changed, request for new articles and setstate with new articles object
-  async componentWillReceiveProps(nextProps){
-    const { pathname, query } = nextProps.url;
+  // check if query has changed
+  // if changed, request for new articles and setstate with new articles object
+  async componentWillReceiveProps(nextProps) {
+    const { query } = nextProps.url;
     // console.log(pathname);
-    console.log(query.category);
     const category = query.category.charAt(0).toUpperCase() + query.category.slice(1);
     const articles = await getArticlesByCategories(`${category}`);
-    console.log(articles);
     this.setState({ articles, query: category });
   }
 
-  //on click, get posts related to category
+  // on click, get posts related to category
   async handleClick(category) {
     const articles = await getArticlesByCategories(category);
-    console.log(category);
     this.setState({
-      articles
+      articles,
     });
-  };
+  }
 
-  render(){
+  render() {
     // const currentPath = this.props.;
     const categories = ['Running', 'Cycling', 'Triathlon', 'General'];
     const articles = this.state.articles.objects;
     const query = this.state.query;
-    // console.log(query);
-    // console.log(articles);
     const renderCards = categories.map((category, index) => {
-      return(
-        <Card key={index} style={{ cursor: 'pointer' }} onClick={e => this.handleClick(category)} >
+      return (
+        <Card key={index} style={{ cursor: 'pointer' }} onClick={this.handleClick(category)} >
           <CardContent>
             <Typography type="body1">
               {category}
@@ -86,15 +79,15 @@ class categoriesPage extends Component {
       );
     });
 
-    return(
+    return (
       <div>
         <HeaderTabs />
-        {/*<Grid container direction="row" justify="center" className={this.classes.cardContainer}>
+        { /* <Grid container direction="row" justify="center" className={this.classes.cardContainer}>
           {renderCards}
-        </Grid>*/}
+        </Grid> */}
         <div className={this.classes.catContainer}>
           <Typography type="display1">{this.state.query} Articles</Typography>
-          <CategorizedArticles articles={articles} query={query}/>
+          <CategorizedArticles articles={articles} query={query} />
         </div>
       </div>
     );
@@ -104,6 +97,6 @@ class categoriesPage extends Component {
 categoriesPage.propTypes = {
   classes: PropTypes.object.isRequired,
   articles: PropTypes.object,
-}
+};
 
 export default compose(withStyles(styleSheet), withRoot)(categoriesPage);

@@ -1,20 +1,20 @@
 kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
-  name: frontend-canary
+  name: frontend-production
 spec:
   replicas:
   template:
     metadata:
-      name: frontend
+      name: swn-frontend
       labels:
         app: frontend
         role: frontend
-        env: canary
+        env: production 
     spec:
       containers:
       - name: frontend
-        image: "gcr.io/swn-jenkins/swn:dev-jenkins.20"
+        image: "gcr.io/swn-jenkins/swn:dev-jenkins.20" 
         imagePullPolicy: Always
         resources:
           limits:

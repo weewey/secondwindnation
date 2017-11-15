@@ -2,7 +2,6 @@ node {
   def project = 'swn-jenkins'
   def appName = 'swn'
   def feSvcName = "${appName}-frontend"
-  def containerTestBuild = "swn-test-build"
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
   stage('Initialize Node Environment') {

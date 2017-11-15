@@ -37,28 +37,28 @@ function CategorizedArticles(props){
   }
   else {
     const renderArticles = articles.all.map((article) => {
-        const headerImg = encodeURI(get(article, headerImgStrg));
-        console.log(headerImg);
-        const title = get(article, titleStrg);
-        const id = get(article, articleId);
-        return(
-          <Grid item key={id} xs={12} sm={6} md={4} lg={4}>
-            <Card className={classes.card}>
-              <CardMedia className={classes.media} image={headerImg} />
-              <CardContent>
-                <Typography type="title" component="p">{title}</Typography>
-              </CardContent>
-              <CardActions>
-                <Button dense color="primary" onClick={e => {
-                  e.preventDefault();
-                  Router.push(`/post?slug=${article.slug}`, `/post/${article.slug}`)
-                }}>Read more</Button>
-              </CardActions>
-            </Card>
-          </Grid>
-        )
-    })
-    return(
+      const headerImgUnsafe = encodeURI(get(article, headerImgStrg));
+      const headerImg = headerImgUnsafe.includes("'") ? headerImgUnsafe.replace("'", '%27') : headerImgUnsafe;
+      const title = get(article, titleStrg);
+      const id = get(article, articleId);
+      return (
+        <Grid item key={id} xs={12} sm={6} md={4} lg={4}>
+          <Card className={classes.card}>
+            <CardMedia className={classes.media} image={headerImg} />
+            <CardContent>
+              <Typography type="title" component="p">{title}</Typography>
+            </CardContent>
+            <CardActions>
+              <Button dense color="primary" onClick={e => {
+                e.preventDefault();
+                Router.push(`/post?slug=${article.slug}`, `/post/${article.slug}`)
+              }}>Read more</Button>
+            </CardActions>
+          </Card>
+        </Grid>
+      );
+    });
+    return (
       <div>
         <Grid container direction="row" spacing={16} justify="center" className={classes.articlesContainer} align="center" hidden={{ smDown: true }}>
           {renderArticles}
@@ -70,7 +70,8 @@ function CategorizedArticles(props){
           {renderArticles}
         </Grid>
       </div>
-    )};
+    );
+  }
 }
 
 CategorizedArticles.propTypes = {

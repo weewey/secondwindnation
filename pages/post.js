@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Grid from 'material-ui/Grid';
 import compose from 'recompose/compose';
 import { withStyles } from 'material-ui/styles';
 import throttle from 'lodash.throttle';
@@ -20,9 +19,7 @@ const styleSheet = ({
 class postPage extends React.Component {
   static async getInitialProps({ query }) {
     const { slug } = query;
-    console.log(slug);
     const article = await getPostBySlug(slug);
-    console.log(article);
     return { article };
   }
 
@@ -78,7 +75,6 @@ class postPage extends React.Component {
   }
 
   render() {
-    const { classes } = this.props;
     const currentPath = this.props.url.pathname;
     return (
       <div>
@@ -93,7 +89,6 @@ class postPage extends React.Component {
 }
 
 postPage.propTypes = {
-  classes: PropTypes.object.isRequired,
   article: PropTypes.object.isRequired,
   url: PropTypes.object.isRequired,
 };

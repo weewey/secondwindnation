@@ -1,4 +1,5 @@
 // Make Enzyme functions available in all test files without importing
+/* eslint-disable no-unused-vars */
 import { shallow, render, mount } from 'enzyme';
 import React from 'react';
 import fetch from 'jest-fetch-mock';

@@ -35,6 +35,7 @@ export default function getContext() {
   }
 
   // Reuse context on the client-side
+  /* eslint-disable no-underscore-dangle */
   if (!global.__INIT_MATERIAL_UI__) {
     global.__INIT_MATERIAL_UI__ = createContext();
   }

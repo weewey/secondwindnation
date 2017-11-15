@@ -31,7 +31,7 @@ spec:
               key: write-key
         resources:
           requests:
-            memory: "64Mi"
+            memory: "500Mi"
             cpu: "100Mi"
         ports:
         - name: http

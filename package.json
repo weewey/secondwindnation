@@ -60,7 +60,7 @@
     "stop": "pm2 stop all",
     "test:watch": "yarn run test --watch",
     "test": "NODE_ENV=test jest -u",
-    "lint": "eslint './components'"
+    "lint": "eslint -c '.eslintrc' --cache --color ./"
   },
   "devDependencies": {
     "ajv": "^5.2.2",

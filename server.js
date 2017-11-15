@@ -1,4 +1,4 @@
-// version = '0.0.4a';
+// version = '0.0.1';
 
 const express = require('express');
 const next = require('next');
@@ -7,12 +7,12 @@ const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
+/* eslint-disable no-console */
+
 app.prepare()
   .then(() => {
     const server = express();
 
-    console.log(process.env.read_key);
-    console.log(process.env.write_key);
     server.get('/post/:slug', (req, res) => {
       const actualPage = '/post';
       const queryParams = { slug: req.params.slug };
