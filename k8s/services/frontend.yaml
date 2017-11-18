@@ -4,6 +4,7 @@ metadata:
   name: "swn-frontend"
 spec:
   type: LoadBalancer
+  loadBalancerIP: "35.186.157.186"
   selector:
     app: "frontend"
     role: frontend
