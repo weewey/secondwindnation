@@ -39,6 +39,13 @@ class categoriesPage extends Component {
     const { classes } = props;
     this.classes = classes;
   }
+  async componentWillReceiveProps(nextProps) {
+    const { query } = nextProps.url;
+    const category = query.category.charAt(0).toUpperCase() + query.category.slice(1);
+    const articles = await getArticlesByCategories(`${category}`);
+    this.setState({ articles, query: category });
+  }
+
 
   render() {
     const articles = this.state.articles.objects;
