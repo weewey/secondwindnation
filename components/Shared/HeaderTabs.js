@@ -67,7 +67,7 @@ class CenteredTabs extends Component {
                   open={open}
                   onRequestClose={this.handleRequestClose}
                 >
-                  <MenuItem><Link href="/categories?category=running" ><a className={classes.links}>RUNNING</a></Link></MenuItem>
+                  <MenuItem><Link href={{ pathname: '/categories', query: { category: 'running' } }} ><a className={classes.links}>RUNNING</a></Link></MenuItem>
                   <MenuItem><Link href={{ pathname: '/categories', query: { category: 'cycling' } }} replace ><a className={classes.links}>CYCLING</a></Link></MenuItem>
                   <MenuItem><Link href={{ pathname: '/categories', query: { category: 'triathlon' } }} replace ><a className={classes.links}>TRIATHLON</a></Link></MenuItem>
                   <MenuItem><Link href={{ pathname: '/categories', query: { category: 'general' } }} replace ><a className={classes.links}>GENERAL</a></Link></MenuItem>
