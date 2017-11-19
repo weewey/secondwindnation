@@ -2,6 +2,7 @@
 
 const express = require('express');
 const next = require('next');
+const open = require('open');
 
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
@@ -24,6 +25,7 @@ app.prepare()
       if (err) throw err;
       else {
         console.log('> Ready on http://localhost:8081');
+        open('http://localhost:8081');
       }
     });
   })
