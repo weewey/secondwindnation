@@ -4,9 +4,6 @@ import JssProvider from 'react-jss/lib/JssProvider';
 import Router from 'next/router';
 import getContext from '../styles/getContext';
 
-Router.onAppUpdated = function (nextRoute) {
-  location.href = nextRoute;
-};
 
 class MyDocument extends Document {
   render() {
@@ -57,6 +54,9 @@ MyDocument.getInitialProps = (ctx) => {
   // 3. page.render
 
   // Get the context to collected side effects.
+  Router.onAppUpdated = function (nextRoute) {
+    location.href = nextRoute;
+  };
   const context = getContext();
   const page = ctx.renderPage(Component => props => (
     <JssProvider registry={context.sheetsRegistry} jss={context.jss}>
