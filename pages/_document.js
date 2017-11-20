@@ -1,7 +1,12 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import JssProvider from 'react-jss/lib/JssProvider';
+import Router from 'next/router';
 import getContext from '../styles/getContext';
+
+Router.onAppUpdated = function (nextRoute) {
+  location.href = nextRoute;
+};
 
 class MyDocument extends Document {
   render() {

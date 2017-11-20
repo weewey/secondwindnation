@@ -131,7 +131,6 @@ class SingleArticle extends Component {
     grammarlyClasses.forEach(name => {
       grammarDiv.push(document.getElementsByClassName(name));
     });
-    // console.log(grammarDiv);
     //maps through each of the array-like objects
     grammarDiv.forEach(divs => {
       Array.from(divs).map(div => {
@@ -146,49 +145,38 @@ class SingleArticle extends Component {
     };
   };
   render() {
-return (
-    <div>
-      <Sticky>
-        <div className={this.classes.stickyContainer}>
-          <Hidden smDown>
-            <StickySocialIconDesk articles={this.article} />
-          </Hidden>
-        </div>
-      </Sticky>
-      <Grid container justify='center' spacing={0}>
-        <Grid item className={this.classes.imgGrid} justify='center' xs={12} md={10} lg={10}>
-          <img className={this.classes.img} src={this.headerImg} alt={this.title} />
-        </Grid>
-        <Grid item xs={9} md={10} lg={6} justify='center' style={{ marginTop: 35 }}>
-          <Grid item justify='center' style={{ display: 'flex' }}>
-            <ArticleAuthor article={this.article} />
-            <Hidden mdUp>
-              <StickySocialIconMobile articles={this.article} />
+    return (
+      <div>
+        <Sticky>
+          <div className={this.classes.stickyContainer}>
+            <Hidden smDown>
+              <StickySocialIconDesk articles={this.article} />
             </Hidden>
+          </div>
+        </Sticky>
+        <Grid container justify="center" spacing={0}>
+          <Grid item className={this.classes.imgGrid} justify="center" xs={12} md={10} lg={10}>
+            <img className={this.classes.img} src={this.headerImg} alt={this.title} />
           </Grid>
-          <Grid item justify='center' style={{ display: 'flex' }}>
-            <Typography type="title" className={this.classes.title}>{this.title}</Typography>
-          </Grid>
-          <Grid item justify='center' style={{ display: 'flex' }}>
-            <div className={this.classes.mobilepost_content} dangerouslySetInnerHTML={this.renderMarkup(this.articleContent)} />
-          </Grid>
-          {/*<Hidden mdUp>
-            <div className={this.classes.mobilepost_content} dangerouslySetInnerHTML={this.renderMarkup(this.articleContent)} />
-          </Hidden>
-          <Hidden smDown>
-            <div className={this.classes.deskpost_content} dangerouslySetInnerHTML={this.renderMarkup(this.articleContent)} />
-          </Hidden>*/}
-          <Grid item justify='center' style={{ display: 'flex' }}>
-            <RelatedArticles articles={this.relatedArticles} />
+          <Grid item xs={9} md={10} lg={6} justify="center" style={{ marginTop: 35 }}>
+            <Grid item justify="center" style={{ display: 'flex' }}>
+              <ArticleAuthor article={this.article} />
+              <Hidden mdUp>
+                <StickySocialIconMobile articles={this.article} />
+              </Hidden>
+            </Grid>
+            <Grid item justify="center" style={{ display: 'flex' }}>
+              <Typography type="title" className={this.classes.title}>{this.title}</Typography>
+            </Grid>
+            <Grid item justify="center" style={{ display: 'flex' }}>
+              <div className={this.classes.mobilepost_content} dangerouslySetInnerHTML={this.renderMarkup(this.articleContent)} />
+            </Grid>
+            <Grid item justify="center" style={{ display: 'flex' }}>
+              <RelatedArticles articles={this.relatedArticles} />
+            </Grid>
           </Grid>
         </Grid>
-        {/*<Grid item>
-          <Sticky>
-              <StickySocialIcon articles={this.article} />
-          </Sticky>
-        </Grid>*/}
-      </Grid>
-    </div>
+      </div>
     );
   }
 }
