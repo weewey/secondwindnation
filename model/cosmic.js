@@ -16,13 +16,17 @@ function keyMetafields(object){
 }
 /* eslint-enable */
 
-function getAllObjectsByType(type = 'posts', skip = 0, limit = 5, sort = '-created_at') {
-  const params = {
+function getAllObjectsByType(type = 'posts', skip = 0, limit = 5, sort = '-created_at', ...args) {
+  let params = {
     type_slug: type,
     limit,
     skip,
     sort,
   };
+
+  if (args) {
+    params.status = args[0];
+  }
 
   const data = new Promise((resolve) => {
     Cosmic.getObjectType(config, params, (err, res) => {
@@ -30,6 +34,13 @@ function getAllObjectsByType(type = 'posts', skip = 0, limit = 5, sort = '-creat
     });
   });
   return data;
+}
+
+function getDrafts() {
+  const draftParams = [undefined, undefined, 20, undefined, 'all'];
+  return new Promise((resolve) => {
+    getAllObjectsByType(...draftParams).then(result => resolve(result));
+  });
 }
 
 function getPostBySlug(slug) {
@@ -101,4 +112,5 @@ module.exports = {
   getRelatedPost,
   postContactForm,
   getArticlesByCategories,
+  getDrafts,
 };
