@@ -36,11 +36,17 @@ function getAllObjectsByType(type = 'posts', skip = 0, limit = 5, sort = '-creat
   return data;
 }
 
-function getDrafts() {
-  const draftParams = [undefined, undefined, 20, undefined, 'all'];
-  return new Promise((resolve) => {
-    getAllObjectsByType(...draftParams).then(result => resolve(result));
+function getDraft(slug) {
+  const draftParams = {
+    slug,
+    status: 'all',
+  };
+  const data = new Promise((resolve) => {
+    Cosmic.getObject(config, draftParams, (err, res) => {
+      resolve(res);
+    });
   });
+  return data;
 }
 
 function getPostBySlug(slug) {
@@ -112,5 +118,5 @@ module.exports = {
   getRelatedPost,
   postContactForm,
   getArticlesByCategories,
-  getDrafts,
+  getDraft,
 };

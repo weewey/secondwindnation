@@ -19,6 +19,12 @@ app.prepare()
       const queryParams = { slug: req.params.slug };
       app.render(req, res, actualPage, queryParams);
     });
+    server.get('/draft/:slug', (req, res) => {
+      const actualPage = '/draft';
+      const queryParams = { slug: req.params.slug };
+      app.render(req, res, actualPage, queryParams);
+    });
+
     server.get('*', (req, res) => handle(req, res));
 
     server.listen(8081, (err) => {

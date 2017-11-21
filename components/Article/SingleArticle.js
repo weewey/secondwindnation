@@ -76,7 +76,6 @@ class SingleArticle extends Component {
     super();
     const { article, classes, relatedArticles } = props;
     this.article = article;
-    // console.log(this.article);
     this.headerImg = get(article, headerImgStrg);
     this.articleContent = get(article, contentStrg);
     this.title = get(article, titleStrg);
