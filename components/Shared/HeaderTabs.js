@@ -44,19 +44,25 @@ class CenteredTabs extends Component {
           <Grid item xs={8} sm={8} lg={8} style={{ display: 'flex', alignItems: 'center' }} hidden={{ smDown: true }}>
             <Grid container direction="row" justify="center" spacing={0} style={{ alignItems: 'center' }}>
               <Grid item className={classes.tabs}>
-                <Button>
-                  <Link href="/"><a className={classes.links}>Home</a></Link>
-                </Button>
+                <Link href="/">
+                  <Button>
+                    <a className={classes.links}>Home</a>
+                  </Button>
+                </Link>
               </Grid>
               <Grid item className={classes.tabs}>
-                <Button>
-                  <Link href="/about"><a className={classes.links}>About</a></Link>
-                </Button>
+                <Link href="/about">
+                  <Button>
+                    <a className={classes.links}>About</a>
+                  </Button>
+                </Link>
               </Grid>
               <Grid item className={classes.tabs}>
-                <Button>
-                  <Link href="/contact"><a className={classes.links}>Contact</a></Link>
-                </Button>
+                <Link href="/contact">
+                  <Button>
+                    <a className={classes.links}>Contact</a>
+                  </Button>
+                </Link>
               </Grid>
               <Grid item className={classes.tabs}>
                 <Button
