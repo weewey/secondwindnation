@@ -55,7 +55,7 @@
     "rm": "rm -rf .next/",
     "prebuild": "npm run rm",
     "build": "next build",
-    "create-hash": "echo {\\\"app.js\\\":{\\\"hash\\\":\\\"2xxx\\\"}} > .next/build-stats.json",
+    "create-hash": "echo {\\\"app.js\\\":{\\\"hash\\\":\\\"$(git log --format='%H' -n 1)\\\"}} > .next/build-stats.json",
     "create-build-id": "git log --format='%H' -n 1 > .next/BUILD_ID",
     "postbuild": "npm-run-all create-hash create-build-id",
     "start": "NODE_ENV=production npm-run-all start:next",
