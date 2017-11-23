@@ -79,6 +79,11 @@ class CenteredTabs extends Component {
                   <MenuItem><Link href={{ pathname: '/categories', query: { category: 'general' } }} replace ><a className={classes.links}>GENERAL</a></Link></MenuItem>
                 </Menu>
               </Grid>
+              <Grid item className={classes.tabs}>
+                <Button>
+                  <a href="https://secondwindacademy.com/" className={classes.links}>Academy</a>
+                </Button>
+              </Grid>
             </Grid>
           </Grid>
           <Grid item xs={2} sm={2} lg={2} style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', paddingRight: 20 }} hidden={{ smDown: true }}>
