@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <html lang="en" dir="ltr">
         <Head>
-          <title>Second Wind</title>
+          <title>Second Wind Nation</title>
           <meta charSet="utf-8" />
           <meta
             name="viewport"
