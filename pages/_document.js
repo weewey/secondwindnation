@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <html lang="en" dir="ltr">
         <Head>
-          <title>Second Wind</title>
+          <title>Second Wind Nation</title>
           <meta charSet="utf-8" />
           <meta
             name="viewport"
@@ -19,6 +19,7 @@ class MyDocument extends Document {
               'minimum-scale=1, width=device-width, height=device-height'
             }
           />
+          <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
           <link rel="manifest" href="/static/manifest.json" />
           <meta name="theme-color" content={this.props.stylesContext.theme.palette.primary[500]} />
           <link
