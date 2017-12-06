@@ -24,6 +24,7 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-ga": "^2.3.5",
     "react-jss": "^7.0.2",
     "react-responsive-carousel": "^3.1.25",
     "react-reveal": "^0.2.2",
