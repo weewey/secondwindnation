@@ -35,6 +35,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <body>
           <noscript dangerouslySetInnerHTML={{__html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPW822P"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>` }} />
+          <script dangerouslySetInnerHTML={{ __html: `(function(w, d){
+            var id='embedly-platform', n = 'script'; if (!d.getElementById(id)){w.embedly = w.embedly || function() { (w.embedly.q = w.embedly.q || []).push(arguments); };
+            var e = d.createElement(n); e.id = id; e.async=1; e.src = ('https:' === document.location.protocol ? 'https' : 'http') + '://cdn.embedly.com/widgets/platform.js'; var s = d.getElementsByTagName(n)[0];s.parentNode.insertBefore(e, s);}
+          })(window, document);` }}
+          />
           <Main />
           <NextScript />
         </body>
